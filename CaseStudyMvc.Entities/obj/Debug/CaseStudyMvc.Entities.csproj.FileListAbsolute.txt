@@ -9,3 +9,14 @@ C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\CaseStudy
 C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\CaseStudyMvc.Entities.dll
 C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\CaseStudyMvc.Entities.pdb
 C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\CaseStudyMvc.Entities.csprojAssemblyReference.cache
+D:\GitHub\CaseStudyMvc\CaseStudyMvc.Entities\bin\Debug\CaseStudyMvc.Entities.dll.config
+D:\GitHub\CaseStudyMvc\CaseStudyMvc.Entities\bin\Debug\CaseStudyMvc.Entities.dll
+D:\GitHub\CaseStudyMvc\CaseStudyMvc.Entities\bin\Debug\CaseStudyMvc.Entities.pdb
+D:\GitHub\CaseStudyMvc\CaseStudyMvc.Entities\bin\Debug\Dapper.dll
+D:\GitHub\CaseStudyMvc\CaseStudyMvc.Entities\bin\Debug\Dapper.SqlBuilder.dll
+D:\GitHub\CaseStudyMvc\CaseStudyMvc.Entities\bin\Debug\Dapper.xml
+D:\GitHub\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\CaseStudyMvc.Entities.csprojAssemblyReference.cache
+D:\GitHub\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\CaseStudyMvc.Entities.csproj.CoreCompileInputs.cache
+D:\GitHub\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\CaseStudyMvc.Entities.csproj.CopyComplete
+D:\GitHub\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\CaseStudyMvc.Entities.dll
+D:\GitHub\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\CaseStudyMvc.Entities.pdb
