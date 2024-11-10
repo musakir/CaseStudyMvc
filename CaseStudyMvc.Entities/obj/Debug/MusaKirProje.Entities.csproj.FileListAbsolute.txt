@@ -1,0 +1,10 @@
+C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\bin\Debug\CaseStudyMvc.Entities.dll.config
+C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\bin\Debug\CaseStudyMvc.Entities.dll
+C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\bin\Debug\CaseStudyMvc.Entities.pdb
+C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\bin\Debug\Dapper.dll
+C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\bin\Debug\Dapper.SqlBuilder.dll
+C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\bin\Debug\Dapper.xml
+C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\MusaKirProje.Entities.csproj.CoreCompileInputs.cache
+C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\MusaKirProje.Entities.csproj.CopyComplete
+C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\CaseStudyMvc.Entities.dll
+C:\Users\MUSA KIR\Desktop\CaseStudyMvc\CaseStudyMvc.Entities\obj\Debug\CaseStudyMvc.Entities.pdb

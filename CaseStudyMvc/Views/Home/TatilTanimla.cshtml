@@ -1,0 +1,426 @@
+﻿@using System.Data;
+@{
+    ViewBag.Title = "Tatil Tanımla";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    string Tarih = "", Aciklama = "";
+    int TatilId = 0, TatilTurId = 0, Aktif = 0;
+
+    if (Model.TatilData != null && Model.TatilData.Count > 0 && Model.TatilId > 0)
+    {
+        foreach (var item in Model.TatilData)
+        {
+            TatilId = item.Id;
+            TatilTurId = item.TatilTurId;
+            Aktif = item.Aktif;
+            Tarih = item.Tarih.ToString("yyyy-MM-dd");
+            Aciklama = item.Aciklama;
+        }
+    }
+}
+
+<style>
+    ul.pagination {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+
+        ul.pagination li {
+            display: inline;
+        }
+
+            ul.pagination li a {
+                color: black;
+                float: left;
+                padding: 8px 16px;
+                text-decoration: none;
+                transition: background-color .3s;
+                border: 1px solid white;
+                background-color: lightgray;
+            }
+
+                ul.pagination li a.active {
+                    background-color: darkblue;
+                    color: white;
+                    border: 1px solid darkblue;
+                }
+
+                ul.pagination li a:hover:not(.active) {
+                    background-color: antiquewhite;
+                }
+
+    div.center {
+        text-align: center;
+    }
+
+    table td {
+        vertical-align: top;
+        max-width: 300px;
+    }
+
+    .csTdTanim {
+        text-align: right;
+        padding-right: 5px;
+        width: 10em;
+        vertical-align: middle;
+    }
+
+    .csInput {
+        color: blue;
+        background-color: #fff465;
+        font-size: medium;
+        border-radius: 5px;
+        height: 50px;
+        width: 30em;
+        padding: 5px;
+    }
+
+    .csSelect {
+        font-weight: bold;
+        width: 28em;
+        height: 50px;
+        line-height: 1em;
+        border: 2px solid black;
+    }
+
+    .csBtnSave {
+        background-color: darkgreen;
+        padding: 5px;
+        width: 7em;
+        height: 50px;
+        font-size: medium;
+    }
+
+    .csTr {
+        line-height: 25px;
+    }
+</style>
+
+<div class="hidedesktop" style="margin-top:50px;"></div>
+<div class="hidemobile" style="margin-top:10px;"></div>
+
+<div class="container" style="width:100%; margin-top:5px;">
+    <div class="row gtr-0">
+
+        <div class="col-6 col-6-small">
+
+            <div class="col-12 col-12-small" style="overflow:auto; padding-top:5px;">
+                <form>
+                    <table id="tbSatislar" name="tbSatislar"
+                           data-page-length="20000"
+                           style="width:100%; min-width:500px;">
+                        <thead>
+                            <tr style="background-color:darkblue; color:white; font-weight:bold; font-size:12px; line-height:20px;">
+                                <td class="mTableTd p5" style="width:3em;"> </td>
+                                <td class="mTableTd p5"> Tarih </td>
+                                <td class="mTableTd p5"> Tatil Türü </td>
+                                <td class="mTableTd p5"> Açıklama </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model.TatilListe != null && Model.TatilListe.Count > 0)
+                            {
+                                foreach (var item in Model.TatilListe)
+                                {
+                                    <tr style="line-height:20px;">
+                                        <td class="mTableTd p5">
+                                            <button type="button" class="btnPrimaryMedium" style="background-color:darkblue; font-size:1em; height:25px; padding:5px 10px;"
+                                                    onclick="SatirSec('@item.Id')">
+                                                <i class="fa fa-edit"></i>
+                                            </button>
+                                        </td>
+                                        <td class="mTableTd p5">
+                                            <span> @item.Tarih.ToString("dd-MM-yyyy") </span>
+                                        </td>
+                                        <td class="mTableTd p5">
+                                            <span> @item.TatilTur </span>
+                                        </td>
+                                        <td class="mTableTd p5">
+                                            <span> @item.Aciklama </span>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="5" style="text-align:center;"> Kayıt bulunamadı .!</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            
+        </div>
+
+        <div class="col-6 col-6-small">
+
+            <div class="col-12 col-12-small" style="overflow:auto;">
+                <table style="width:100%; margin:0px; background-color:white; min-width:300px; margin-top:65px;">
+                    <tr style="background-color:darkblue;">
+                        <td colspan="4" style="text-align:center; line-height:30px;">
+                            <b style="color:white;"> Tatil Tanımla </b>
+                        </td>
+                    </tr>
+                    <tr class="csTr">
+                        <td class="csTdTanim"> Tarih : </td>
+                        <td colspan="2">
+                            <input id="tTarih"
+                                   type="date"
+                                   value="@Tarih"
+                                   placeholder="kayıt tanımı"
+                                   class="csInput" />
+                        </td>
+                    </tr>
+                    <tr class="csTr">
+                        <td class="csTdTanim"> Tatil Türü : </td>
+                        <td colspan="2">
+                            <form>
+                                <select id="tTatilTur" class="csSelect">
+                                    <option value="0"> Seçiniz . . . </option>
+                                    @foreach (var tt in Model.TatilTurListe)
+                                    {
+                                        if (tt.Id == TatilTurId)
+                                        {
+                                            <option value="@tt.Id" selected> @tt.Aciklama </option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@tt.Id"> @tt.Aciklama </option>
+                                        }
+                                    }
+                                </select>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr class="csTr">
+                        <td class="csTdTanim"> Açıklama : </td>
+                        <td colspan="2">
+                            <input id="tTatilAciklama"
+                                   type="text"
+                                   value="@Aciklama"
+                                   placeholder="açıklama"
+                                   class="csInput" />
+                        </td>
+                    </tr>
+                    <tr class="csTr">
+                        <td class="csTdTanim"> Aktif : </td>
+                        <td colspan="2">
+                            <form>
+                                <select id="tTatilAktif" class="csSelect">
+                                    <option value="0"> Aktif </option>
+                                    <option value="1"> Pasif </option>
+                                </select>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr class="csTr">
+                        <td class="csTdTanim"> </td>
+                        <td colspan="2">
+                            <div style="float:left;">
+                                <button type="button" class="csBtnSave"
+                                        onclick="TatilSave()">
+                                    <div style="float:left;">
+                                        <i class="fa fa-save"></i>
+                                    </div>
+                                    Kaydet
+                                </button>
+
+                                <button type="button" class="csBtnSave"
+                                        onclick="YeniKayit()">
+                                    <div style="float:left;">
+                                        <i class="fa fa-plus"></i>
+                                    </div>
+                                    Yeni Kayıt
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            @if (TatilId > 0)
+            {
+                <div class="col-12 col-12-small" style="overflow:auto; padding-top:5px; padding-left:10px;">
+                    <form>
+                        <table id="tbSatislar2" name="tbSatislar2"
+                               data-page-length="20000"
+                               style="width:100%; min-width:500px;">
+                            <thead>
+                                <tr style="background-color:darkblue; color:white; font-weight:bold; font-size:12px; line-height:20px;">
+                                    <td class="mTableTd p5"> Eyalet Adı </td>
+                                    <td class="mTableTd p5"> </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.EyaletTatilSecimListe != null && Model.EyaletTatilSecimListe.Count > 0)
+                                {
+                                    foreach (var item in Model.EyaletTatilSecimListe)
+                                    {
+                                        <tr id="trEyalet-@item.Id" style="line-height:20px;">
+                                            <td class="mTableTd p5">
+                                                <span> @item.EyaletAdi </span>
+                                            </td>
+                                            <td class="mTableTd p5">
+                                                @if (item.EyaletTatilSecim > 0)
+                                                {
+                                                    <button type="button" class="btnPrimaryMedium" style="background-color:darkblue; padding:5px;"
+                                                            onclick="EyaletTatilSecimYap('@item.Id','@item.EyaletTatilSecim')">
+                                                        <div style="float:left; height:15px; width:1em;">
+                                                            <i class="fa fa-check-square-o"></i>
+                                                        </div>
+                                                    </button>
+                                                }
+                                                else
+                                                {
+                                                    <button type="button" class="btnPrimaryMedium" style="background-color:darkblue; padding:5px;"
+                                                            onclick="EyaletTatilSecimYap('@item.Id','@item.EyaletTatilSecim')">
+                                                        <div style="float:left; height:15px; width:1em;">
+                                                            <i class="fa"></i>
+                                                        </div>
+                                                    </button>
+                                                }
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="5" style="text-align:center;"> Kayıt bulunamadı .!</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+
+            }
+
+        </div>
+        
+    </div>
+</div>
+
+<script src="@Url.Content("~/Content/js/jquery.min.js")"></script>
+
+<script>
+    $(function () {
+        $('#tbSatislar').DataTable({
+            "language": {
+                "url": "@Url.Content("~/Scripts/datatables.json")"
+            },
+            autoFill: true,
+            dom: 'Bfrtip',
+            buttons: [
+                'excelHtml5',
+                'pdfHtml5'
+            ]
+        });
+    });
+
+    $(function () {
+        $('#tbSatislar2').DataTable({
+            "language": {
+                "url": "@Url.Content("~/Scripts/datatables.json")"
+            },
+            autoFill: true,
+            dom: 'Bfrtip',
+            buttons: [
+                'excelHtml5',
+                'pdfHtml5'
+            ]
+        });
+    });
+</script>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("tTatilAktif").value = '@Aktif';
+    });
+
+    function YeniKayit()
+    {
+        location.href = '@Url.Content("~/Home/TatilTanimla")';
+    }
+
+    function SatirSec(TatilId)
+    {
+        location.href = '@Url.Content("~/Home/TatilTanimla")' + "?KriterTatilId=" + TatilId;
+    }
+
+    function TatilSave()
+    {
+        var TatilId = '@TatilId';
+        var Tarih = document.getElementById("tTarih").value;
+        var TatilTur = document.getElementById("tTatilTur").value;
+        var TatilAciklama = document.getElementById("tTatilAciklama").value;
+        var Aktif = document.getElementById("tTatilAktif").value;
+
+        $.ajax({
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            url: "@(Url.Action("TatilSave", "Home"))",
+            data: "{ \"TatilId\" : \"" + TatilId + "\", \"Tarih\" : \"" + Tarih + "\", \"TatilTur\" : \"" + TatilTur + "\", \"TatilAciklama\" : \"" + TatilAciklama + "\", \"Aktif\" : \"" + Aktif + "\"}",
+            dataType: "json",
+            complete: function () {
+                $('.loading').hide();
+            },
+            success: function (data) {
+
+                const result = JSON.parse(data);
+
+                if (result.OperationStatusCode == "200") {
+                    location.href = '@Url.Content("~/Home/TatilTanimla")';
+                }
+                else {
+                    alert(result.Message);
+                }
+            },
+            error: function (request, status, error) {
+                alert(status + error);
+            }
+        });
+    }
+
+    function EyaletTatilSecimYap(EyaletId, EyaletTatilSecim)
+    {
+        var TatilId = '@TatilId';
+
+        if (EyaletTatilSecim == "1")
+        {
+            EyaletTatilSecim = "0";
+        }
+        else {
+            EyaletTatilSecim = "1";
+        }
+
+        $.ajax({
+            type: "POST",
+            contentType: "application/json; charset=utf-8",
+            url: "@(Url.Action("EyaletTatilSave", "Home"))",
+            data: "{ \"TatilId\" : \"" + TatilId + "\", \"EyaletId\" : \"" + EyaletId + "\", \"EyaletTatilSecim\" : \"" + EyaletTatilSecim + "\"}",
+            dataType: "json",
+            complete: function () {
+                $('.loading').hide();
+            },
+            success: function (data) {
+
+                const result = JSON.parse(data);
+
+                if (result.OperationStatusCode == "200") {
+                    location.href = '@Url.Content("~/Home/TatilTanimla")' + "?KriterTatilId=" + TatilId;
+                }
+                else {
+                    alert(result.Message);
+                }
+            },
+            error: function (request, status, error) {
+                alert(status + error);
+            }
+        });
+    }
+</script>

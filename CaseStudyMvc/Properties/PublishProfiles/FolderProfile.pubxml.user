@@ -1,0 +1,1170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Paylasim\AkkimBayboss</_PublishTargetUrl>
+    <History>True|2024-09-13T11:40:33.7242076Z;True|2024-09-13T13:23:59.6307143+03:00;True|2024-09-10T20:36:59.1509957+03:00;True|2024-09-09T15:09:02.9585136+03:00;True|2024-09-09T13:26:47.4998943+03:00;True|2024-08-28T23:57:30.8904696+03:00;True|2024-08-18T13:12:13.4166624+03:00;True|2024-08-07T14:11:30.0659858+03:00;True|2024-08-06T16:30:55.6663129+03:00;True|2024-08-06T16:17:59.4043739+03:00;True|2024-07-22T14:34:16.9662386+03:00;True|2024-07-10T23:11:40.5610587+03:00;True|2024-06-05T22:27:45.4853330+03:00;True|2024-05-27T12:03:43.7887844+03:00;True|2024-05-27T12:03:26.8542972+03:00;True|2024-05-18T00:45:41.8240213+03:00;True|2024-05-15T12:50:26.1496712+03:00;True|2024-04-19T16:12:17.8262839+03:00;True|2024-04-18T15:24:05.5123525+03:00;True|2024-04-16T21:46:59.0129329+03:00;True|2024-04-15T13:33:16.0788907+03:00;True|2024-04-14T20:24:06.8597898+03:00;True|2024-04-03T15:34:38.7997465+03:00;True|2024-04-03T13:40:43.7102863+03:00;True|2024-04-03T08:58:02.8841541+03:00;True|2024-03-31T16:42:45.6200715+03:00;True|2024-03-30T22:38:00.9283088+03:00;True|2024-03-27T08:35:30.3351780+03:00;True|2024-03-26T22:46:04.2151324+03:00;True|2024-03-21T08:44:33.6432649+03:00;True|2024-03-20T14:20:25.4486893+03:00;True|2024-03-20T12:23:31.8859383+03:00;True|2024-03-19T15:34:16.2173943+03:00;True|2024-03-19T14:12:15.7158590+03:00;True|2024-03-19T00:10:40.1344600+03:00;True|2024-03-19T00:09:58.7351144+03:00;True|2024-03-17T01:55:13.2926210+03:00;True|2024-03-15T14:49:12.0202827+03:00;True|2024-03-04T13:10:15.3893269+03:00;True|2024-02-29T11:27:24.2943804+03:00;True|2024-02-28T15:41:38.0418464+03:00;True|2024-02-21T15:30:29.8627056+03:00;True|2024-02-21T10:00:50.4154749+03:00;True|2024-02-21T09:58:32.6327813+03:00;True|2024-02-19T21:44:14.1736293+03:00;True|2024-02-19T21:43:12.5192528+03:00;True|2024-02-19T08:06:17.1990690+03:00;True|2024-02-16T13:26:12.2815035+03:00;True|2024-02-12T22:07:20.3842200+03:00;True|2024-02-11T22:25:40.4635097+03:00;True|2024-02-11T22:02:23.6345813+03:00;True|2024-02-11T21:14:05.6168599+03:00;True|2024-02-11T21:11:20.7822473+03:00;True|2024-02-11T21:00:37.1924455+03:00;True|2024-02-08T16:16:37.1629096+03:00;True|2024-02-03T17:32:26.8417991+03:00;True|2024-02-03T16:55:00.8539936+03:00;True|2024-02-03T16:43:15.9958890+03:00;True|2024-02-03T16:41:14.8932746+03:00;True|2024-02-03T16:00:47.1351988+03:00;True|2024-01-29T23:35:33.8957051+03:00;True|2024-01-29T23:04:40.2771646+03:00;True|2024-01-29T23:04:02.3305557+03:00;True|2024-01-28T20:48:04.5113735+03:00;True|2024-01-28T20:24:52.6721314+03:00;True|2024-01-28T20:06:44.8225013+03:00;True|2024-01-28T20:06:22.0460373+03:00;True|2024-01-28T19:30:40.8770258+03:00;True|2024-01-24T10:40:30.7429639+03:00;True|2024-01-24T08:26:06.9743303+03:00;True|2024-01-24T08:24:32.8703991+03:00;True|2024-01-23T08:36:26.5351829+03:00;True|2024-01-22T08:34:29.5445805+03:00;True|2024-01-22T08:34:15.2151323+03:00;True|2024-01-21T01:23:13.7925676+03:00;True|2024-01-19T20:14:14.0689843+03:00;True|2024-01-18T19:54:08.9436134+03:00;True|2024-01-18T07:13:56.3776631+03:00;True|2024-01-18T00:45:48.0165244+03:00;True|2024-01-17T13:05:56.5261396+03:00;True|2024-01-17T11:14:06.1620926+03:00;True|2024-01-16T21:58:05.9068713+03:00;True|2024-01-16T21:28:53.5282422+03:00;True|2024-01-16T16:50:29.2775443+03:00;True|2024-01-16T16:41:25.4742566+03:00;True|2024-01-15T14:11:01.6650754+03:00;True|2024-01-15T13:41:09.2266825+03:00;True|2024-01-15T11:53:49.9811507+03:00;True|2024-01-14T22:28:49.8314139+03:00;True|2024-01-14T02:50:44.8109192+03:00;True|2024-01-12T13:42:36.1314388+03:00;True|2024-01-12T11:33:54.3802580+03:00;True|2024-01-11T10:39:52.5016356+03:00;True|2024-01-11T08:38:45.0772239+03:00;True|2024-01-10T21:45:34.2525826+03:00;True|2024-01-10T08:16:00.5992821+03:00;True|2024-01-10T08:15:21.3112287+03:00;True|2024-01-08T23:34:48.5193594+03:00;True|2024-01-08T08:21:23.5235484+03:00;True|2024-01-07T02:43:49.7311596+03:00;True|2024-01-07T02:05:36.2888330+03:00;True|2024-01-07T01:37:26.4712219+03:00;True|2024-01-07T01:05:20.7075902+03:00;True|2024-01-07T00:02:58.4804127+03:00;True|2024-01-06T23:09:10.7332179+03:00;True|2024-01-06T17:37:04.3465244+03:00;True|2024-01-05T16:31:48.9454423+03:00;True|2024-01-05T15:07:50.9887764+03:00;True|2024-01-05T10:47:47.7575224+03:00;True|2024-01-04T20:13:38.4936620+03:00;True|2024-01-04T20:10:06.8283508+03:00;True|2024-01-04T19:51:36.8053861+03:00;True|2024-01-04T13:35:01.4056084+03:00;True|2024-01-04T13:28:33.5674008+03:00;True|2024-01-04T13:14:58.5809993+03:00;True|2024-01-04T09:57:31.6783883+03:00;True|2024-01-03T21:03:44.2077708+03:00;True|2024-01-03T20:27:08.8181713+03:00;True|2024-01-03T20:07:39.7908625+03:00;True|2024-01-03T17:44:50.2893929+03:00;True|2024-01-03T15:32:17.3334616+03:00;True|2024-01-03T14:19:03.3629854+03:00;True|2024-01-03T09:22:23.6979021+03:00;True|2024-01-03T08:43:50.3680373+03:00;True|2024-01-03T08:37:04.2503794+03:00;True|2024-01-02T22:31:31.4537830+03:00;True|2024-01-02T21:58:53.6635346+03:00;True|2024-01-02T21:15:54.1318063+03:00;True|2024-01-02T16:19:04.6545389+03:00;True|2024-01-02T12:00:43.6354673+03:00;True|2024-01-01T16:34:30.1047065+03:00;True|2023-12-30T02:51:40.7037278+03:00;True|2023-12-30T02:50:58.2887606+03:00;True|2023-12-25T10:21:42.6312731+03:00;True|2023-12-23T17:21:49.8739815+03:00;True|2023-12-23T03:51:21.8560212+03:00;True|2023-12-23T02:19:35.1754058+03:00;True|2023-12-17T06:10:10.7772228+03:00;True|2023-12-17T05:52:48.9724200+03:00;True|2023-12-17T01:05:32.0973644+03:00;True|2023-12-17T00:16:43.2512683+03:00;True|2023-12-15T11:26:25.1975676+03:00;True|2023-12-14T23:45:18.3856403+03:00;True|2023-12-14T20:10:48.2973978+03:00;True|2023-12-14T19:43:02.3999814+03:00;True|2023-11-26T16:39:01.3316648+03:00;True|2023-11-22T09:31:48.1991605+03:00;True|2023-11-21T20:13:07.1522522+03:00;True|2023-11-21T19:27:41.8118553+03:00;True|2023-11-13T23:02:35.1578441+03:00;True|2023-11-06T22:50:23.9562631+03:00;True|2023-11-03T23:14:49.0808779+03:00;True|2023-10-31T09:21:02.9703383+03:00;True|2023-10-28T13:07:48.8868278+03:00;True|2023-10-28T12:29:52.6442649+03:00;True|2023-10-23T20:35:59.9589538+03:00;True|2023-10-22T22:20:07.3684991+03:00;True|2023-10-22T15:13:57.9277463+03:00;True|2023-10-22T14:50:47.3452552+03:00;True|2023-10-15T18:04:01.5514284+03:00;True|2023-10-15T18:03:30.4836189+03:00;True|2023-10-15T17:13:35.7427250+03:00;True|2023-10-15T11:39:23.9114078+03:00;True|2023-10-15T11:36:36.5060199+03:00;True|2023-10-15T11:00:06.0162207+03:00;True|2023-10-15T10:58:28.7377893+03:00;True|2023-10-06T21:41:58.1951101+03:00;True|2023-10-05T20:19:38.8216237+03:00;True|2023-09-21T10:36:36.1779247+03:00;True|2023-09-19T22:06:47.5974243+03:00;True|2023-09-14T16:41:19.9801206+03:00;True|2023-08-23T11:21:16.0831298+03:00;True|2023-08-22T20:50:00.9028352+03:00;True|2023-08-10T14:36:34.3033621+03:00;True|2023-08-07T21:52:14.1076212+03:00;True|2023-08-07T14:07:35.4656237+03:00;True|2023-07-17T16:21:59.8062330+03:00;True|2023-07-14T13:09:13.2168076+03:00;True|2023-07-13T17:25:16.8131520+03:00;True|2023-07-13T16:37:40.4726904+03:00;False|2023-06-04T17:40:18.1081938+03:00;False|2023-06-04T17:38:31.9829496+03:00;True|2023-05-29T13:58:43.3623043+03:00;True|2023-05-28T19:20:55.5956151+03:00;True|2023-05-22T14:04:47.7635585+03:00;True|2023-05-17T09:16:08.4632683+03:00;True|2023-05-12T11:31:21.7711663+03:00;True|2023-05-10T22:25:00.8121499+03:00;True|2023-05-09T21:41:47.0771298+03:00;True|2023-05-09T21:41:34.4172851+03:00;True|2023-05-04T15:35:02.4074426+03:00;True|2023-04-28T23:17:59.2797508+03:00;True|2023-04-26T09:36:27.9990385+03:00;True|2023-04-25T22:50:55.9841932+03:00;True|2023-04-25T21:57:41.5825110+03:00;True|2023-04-24T22:50:55.7638884+03:00;True|2023-04-14T12:37:35.0783782+03:00;True|2023-04-14T12:24:23.5972060+03:00;True|2023-04-14T12:16:03.1891045+03:00;True|2023-04-10T22:15:35.8405539+03:00;True|2023-04-10T22:14:43.5506693+03:00;True|2023-04-08T14:07:12.9702245+03:00;True|2023-04-06T22:18:10.9959774+03:00;True|2023-04-06T22:16:46.0609340+03:00;True|2023-04-06T22:13:19.8453905+03:00;True|2023-04-06T22:02:35.9764702+03:00;True|2023-04-06T22:00:57.9276270+03:00;True|2023-04-06T21:58:06.0579903+03:00;True|2023-04-06T21:55:32.9289044+03:00;True|2023-04-06T21:44:36.6256934+03:00;True|2023-04-06T21:42:02.4979084+03:00;True|2023-04-06T21:37:11.2135281+03:00;True|2023-04-05T23:23:31.9440949+03:00;True|2023-03-30T17:32:07.9331266+03:00;True|2023-03-29T21:06:04.4390824+03:00;True|2023-03-29T20:53:15.7006799+03:00;True|2023-03-28T21:04:46.6119473+03:00;True|2023-03-28T20:52:47.7191956+03:00;True|2023-03-20T13:19:41.4884705+03:00;True|2023-03-13T22:44:32.1817330+03:00;True|2023-03-09T11:33:17.7063335+03:00;True|2023-03-09T11:32:31.6280089+03:00;True|2023-03-09T11:12:45.8210671+03:00;True|2023-03-08T08:07:57.0876629+03:00;True|2023-03-08T08:07:12.5288157+03:00;True|2023-03-07T15:35:21.9470049+03:00;True|2023-03-07T13:41:27.5332662+03:00;True|2023-03-07T13:40:27.9963574+03:00;True|2023-03-07T13:14:02.5326610+03:00;True|2023-03-06T21:38:38.4056620+03:00;True|2023-03-06T21:33:31.6698381+03:00;True|2023-03-06T21:26:47.8337332+03:00;True|2023-03-06T20:22:38.8739247+03:00;True|2023-03-06T20:21:42.7223121+03:00;True|2023-03-06T19:04:50.3402710+03:00;True|2023-03-06T18:55:16.0418393+03:00;True|2023-03-06T18:51:02.2385760+03:00;True|2023-03-06T18:31:48.3030992+03:00;True|2023-03-06T18:28:51.7641800+03:00;True|2023-03-06T18:07:16.1760946+03:00;True|2023-03-06T16:26:39.5094247+03:00;True|2023-03-06T16:26:25.2293968+03:00;True|2023-03-06T11:59:29.7532188+03:00;True|2023-03-06T11:58:29.7036709+03:00;True|2023-03-05T03:11:09.5286105+03:00;True|2023-03-05T02:43:58.0435828+03:00;True|2023-03-05T02:31:02.6856743+03:00;True|2023-03-05T02:15:23.9334387+03:00;False|2023-03-05T02:15:08.0342249+03:00;True|2023-03-05T02:13:45.3636384+03:00;True|2023-03-05T00:29:26.8886499+03:00;True|2023-03-02T14:25:47.4989870+03:00;True|2023-03-02T14:20:05.3006072+03:00;True|2023-02-28T22:20:44.9772967+03:00;True|2023-02-28T22:10:11.3019531+03:00;True|2023-02-28T22:09:53.6191153+03:00;True|2023-02-28T20:04:11.7412770+03:00;True|2023-02-24T12:29:37.1195672+03:00;True|2023-02-23T10:02:15.9561417+03:00;True|2023-02-23T09:40:10.0308750+03:00;True|2023-02-22T23:16:26.3890343+03:00;True|2023-02-22T23:00:49.8765656+03:00;True|2023-02-16T22:58:21.1474474+03:00;True|2023-02-15T21:31:37.4730572+03:00;True|2023-02-15T21:25:58.9172614+03:00;True|2023-02-13T21:58:23.4641266+03:00;True|2023-02-13T21:35:39.6890842+03:00;True|2023-02-11T01:07:45.3371379+03:00;True|2023-02-10T23:43:03.0885844+03:00;True|2023-02-10T23:38:53.5969329+03:00;True|2023-02-09T15:10:22.4358962+03:00;True|2023-02-07T23:35:17.2332611+03:00;True|2023-02-07T23:27:28.9000661+03:00;True|2023-01-20T16:19:02.5908317+03:00;True|2023-01-16T22:13:33.5506463+03:00;True|2023-01-11T22:14:32.7689513+03:00;True|2023-01-11T22:13:23.9052169+03:00;True|2023-01-11T22:10:34.7597515+03:00;True|2023-01-11T22:05:35.3300942+03:00;True|2023-01-11T21:35:43.4183653+03:00;True|2023-01-11T21:30:41.9591244+03:00;True|2023-01-11T09:48:36.3878917+03:00;True|2023-01-10T09:58:24.9329194+03:00;True|2023-01-07T13:38:47.3960398+03:00;True|2023-01-06T22:44:59.2422505+03:00;True|2022-12-30T23:03:26.2365932+03:00;True|2022-12-30T23:01:42.1648876+03:00;True|2022-12-30T22:58:19.5663802+03:00;True|2022-12-30T22:45:51.2921965+03:00;True|2022-12-30T22:29:05.3673420+03:00;True|2022-12-30T21:47:53.8929830+03:00;True|2022-12-29T16:46:56.7212642+03:00;True|2022-12-29T10:46:20.6302933+03:00;True|2022-12-29T08:23:37.0309690+03:00;True|2022-12-29T08:20:14.4261156+03:00;True|2022-12-28T14:01:10.3934064+03:00;True|2022-12-27T20:45:08.2867272+03:00;True|2022-12-27T12:05:18.7284340+03:00;True|2022-12-04T13:04:17.1438841+03:00;True|2022-11-29T11:53:48.7689794+03:00;True|2022-11-29T11:23:29.0804702+03:00;True|2022-11-25T22:21:58.2880571+03:00;True|2022-11-22T12:14:52.2133677+03:00;True|2022-11-17T21:48:36.0617740+03:00;True|2022-11-17T20:49:25.9836817+03:00;True|2022-11-15T09:57:11.9525141+03:00;True|2022-11-11T21:34:35.6025977+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>04/16/2024 21:39:44</publishTime>
+    </File>
+    <File Include="bin/AkkimBayboss.dll">
+      <publishTime>09/18/2024 22:40:43</publishTime>
+    </File>
+    <File Include="bin/AkkimBayboss.Entities.dll">
+      <publishTime>09/18/2024 22:40:39</publishTime>
+    </File>
+    <File Include="bin/AkkimBayboss.Entities.dll.config">
+      <publishTime>11/22/2023 09:15:20</publishTime>
+    </File>
+    <File Include="bin/AkkimBayboss.Entities.pdb">
+      <publishTime>09/18/2024 22:40:39</publishTime>
+    </File>
+    <File Include="bin/AkkimBayboss.LogoObject.dll">
+      <publishTime>09/18/2024 22:40:40</publishTime>
+    </File>
+    <File Include="bin/AkkimBayboss.LogoObject.dll.config">
+      <publishTime>11/22/2023 09:21:09</publishTime>
+    </File>
+    <File Include="bin/AkkimBayboss.LogoObject.pdb">
+      <publishTime>09/18/2024 22:40:40</publishTime>
+    </File>
+    <File Include="bin/AkkimBayboss.pdb">
+      <publishTime>09/18/2024 22:40:43</publishTime>
+    </File>
+    <File Include="bin/AkkimUretim.dll">
+      <publishTime>10/06/2023 21:41:47</publishTime>
+    </File>
+    <File Include="bin/AkkimUretim.pdb">
+      <publishTime>10/06/2023 21:41:47</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>09/18/2024 22:40:50</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>09/18/2024 22:40:50</publishTime>
+    </File>
+    <File Include="bin/bykmETA.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/bykmLOGO.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/bykmMASTER.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/bykmOBJECT.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/bykmTanimlar.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/Dapper.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Dapper.SqlBuilder.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>02/03/2022 08:41:40</publishTime>
+    </File>
+    <File Include="bin/JWT.dll">
+      <publishTime>05/15/2015 10:15:52</publishTime>
+    </File>
+    <File Include="bin/LOGO_1_89.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/LOGO_1_90.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/LOGO_1_91.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/LOGO_2_00.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/LOGO_2_03.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/LOGO_2_05.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/LOGO_2_12.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/LOGO_2_34.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/LOGO_2_35.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Primitives.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IO.RecyclableMemoryStream.dll">
+      <publishTime>03/10/2021 23:48:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/NReco.PdfGenerator.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/Prm.dll">
+      <publishTime>01/06/2023 21:11:59</publishTime>
+    </File>
+    <File Include="bin/RawPrint.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/RestSharp.dll">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.Annotations.dll">
+      <publishTime>05/15/2018 13:29:36</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>10/16/2023 15:24:39</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>10/16/2023 15:24:39</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>10/16/2023 15:24:39</publishTime>
+    </File>
+    <File Include="bin/System.ValueTuple.dll">
+      <publishTime>10/16/2023 15:24:39</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>10/16/2023 15:24:38</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>10/16/2023 15:24:39</publishTime>
+    </File>
+    <File Include="bin/Zen.Barcode.Core.dll">
+      <publishTime>07/01/2014 15:41:12</publishTime>
+    </File>
+    <File Include="ClassDiagram1.cd">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Content/bayboss/modal.css">
+      <publishTime>11/23/2023 16:00:32</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>10/17/2023 09:44:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/css/font-awesome.min.css">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/css/images/br_down.png">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/css/images/highlight.png">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/css/images/overlay.png">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/css/main.css">
+      <publishTime>12/13/2023 22:42:05</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.eot">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.svg">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.ttf">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.woff">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.woff2">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/fonts/FontAwesome.otf">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/ico/depo.ico">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/js/breakpoints.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/js/browser.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/js/jquery-3.0.0.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/js/jquery.dropotron.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/js/jquery.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/js/jquery.scrolly.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/js/main.js">
+      <publishTime>12/13/2023 22:24:22</publishTime>
+    </File>
+    <File Include="Content/js/print.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/js/util.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/sass/libs/_breakpoints.scss">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/sass/libs/_functions.scss">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/sass/libs/_html-grid.scss">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/sass/libs/_mixins.scss">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/sass/libs/_vars.scss">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/sass/libs/_vendor.scss">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Content/sass/main.scss">
+      <publishTime>11/05/2023 16:02:40</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/13/2023 22:09:43</publishTime>
+    </File>
+    <File Include="Content/svg-turkiye-haritasi.css">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="libman.json">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/06/2023 19:30:21</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/18/2024 22:40:44</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.22.9-build00167.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/bykm.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/datatables.json">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/excel-table-filter.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/JsBarcode.code128.min.js.js">
+      <publishTime>05/02/2024 09:14:24</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/svg-turkiye-haritasi.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="SQL/AKKIM SUNCHECIMAL SATINALMA RAPOU.sql">
+      <publishTime>12/27/2022 20:51:28</publishTime>
+    </File>
+    <File Include="SQL/A_ARGE_PROJE_STOK_BLOKLA.txt">
+      <publishTime>06/04/2023 17:41:27</publishTime>
+    </File>
+    <File Include="SQL/A_ARGE_PROJE_STOK_SAVE_TOPLU.txt">
+      <publishTime>11/21/2022 22:14:54</publishTime>
+    </File>
+    <File Include="SQL/JOB_ARGE_PROJE_STOK_BLOKLA.txt">
+      <publishTime>12/30/2022 19:06:32</publishTime>
+    </File>
+    <File Include="SQL/NTR_TBLSTOKURM_URETIM_BLOKLA.txt">
+      <publishTime>12/30/2022 19:06:32</publishTime>
+    </File>
+    <File Include="ToDo/LogoTablo.txt">
+      <publishTime>12/17/2023 00:40:46</publishTime>
+    </File>
+    <File Include="Upload/acil.png">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Upload/akkim1.PNG">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Upload/akkim_logo.png">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Upload/alev.jpg">
+      <publishTime>12/21/2023 08:48:15</publishTime>
+    </File>
+    <File Include="Upload/barcode.jpg">
+      <publishTime>12/21/2023 08:45:49</publishTime>
+    </File>
+    <File Include="Upload/BerkBiyikImza.png">
+      <publishTime>02/07/2023 23:23:33</publishTime>
+    </File>
+    <File Include="Upload/check.png">
+      <publishTime>12/06/2023 09:54:59</publishTime>
+    </File>
+    <File Include="Upload/delete.png">
+      <publishTime>12/05/2023 23:02:10</publishTime>
+    </File>
+    <File Include="Upload/DilekDemirImza.png">
+      <publishTime>02/22/2023 23:22:55</publishTime>
+    </File>
+    <File Include="Upload/donma.jpg">
+      <publishTime>12/21/2023 08:48:04</publishTime>
+    </File>
+    <File Include="Upload/download-icon.png">
+      <publishTime>12/06/2023 09:49:59</publishTime>
+    </File>
+    <File Include="Upload/Download.png">
+      <publishTime>12/05/2023 23:01:46</publishTime>
+    </File>
+    <File Include="Upload/fire.jpg">
+      <publishTime>12/21/2023 08:48:33</publishTime>
+    </File>
+    <File Include="Upload/FiyatListe/FiyatListeAltBar.PNG">
+      <publishTime>05/19/2023 22:01:32</publishTime>
+    </File>
+    <File Include="Upload/FiyatListe/FiyatListeArkaPlan1.PNG">
+      <publishTime>05/19/2023 21:33:41</publishTime>
+    </File>
+    <File Include="Upload/FiyatListe/FiyatListeQrKod.PNG">
+      <publishTime>05/19/2023 21:59:53</publishTime>
+    </File>
+    <File Include="Upload/FiyatListe/FiyatListesiArkaplan.PNG">
+      <publishTime>05/19/2023 19:48:14</publishTime>
+    </File>
+    <File Include="Upload/FiyatListe/SagAdresSatiri.PNG">
+      <publishTime>05/19/2023 19:48:34</publishTime>
+    </File>
+    <File Include="Upload/FiyatListesiArkaplan.PNG">
+      <publishTime>05/05/2023 10:49:34</publishTime>
+    </File>
+    <File Include="Upload/icon/download.png">
+      <publishTime>02/22/2023 22:45:42</publishTime>
+    </File>
+    <File Include="Upload/karistirma.png">
+      <publishTime>12/21/2023 08:47:51</publishTime>
+    </File>
+    <File Include="Upload/mail.png">
+      <publishTime>12/06/2023 09:50:16</publishTime>
+    </File>
+    <File Include="Upload/ok.ico">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Upload/OnderIslekImza.png">
+      <publishTime>02/22/2023 23:22:55</publishTime>
+    </File>
+    <File Include="Upload/print.png">
+      <publishTime>12/06/2023 09:49:38</publishTime>
+    </File>
+    <File Include="Upload/Printer.ico">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Upload/Printer1.png">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Upload/PrinterAnalizSertifika.png">
+      <publishTime>11/20/2023 16:31:25</publishTime>
+    </File>
+    <File Include="Upload/PrinterUretimKarti.ico">
+      <publishTime>11/20/2023 16:11:08</publishTime>
+    </File>
+    <File Include="Upload/red.ico">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Upload/SelinBiyikImza.png">
+      <publishTime>02/28/2023 20:03:05</publishTime>
+    </File>
+    <File Include="Upload/site-logo.svg">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Upload/turkey.png">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Upload/update.png">
+      <publishTime>12/06/2023 10:08:44</publishTime>
+    </File>
+    <File Include="Views/Arge/argeProjeleri.cshtml">
+      <publishTime>08/06/2024 16:22:24</publishTime>
+    </File>
+    <File Include="Views/Arge/argeProjeListesi.cshtml">
+      <publishTime>08/07/2024 14:05:46</publishTime>
+    </File>
+    <File Include="Views/Arge/CalismaTanimlama.cshtml">
+      <publishTime>12/14/2023 10:08:51</publishTime>
+    </File>
+    <File Include="Views/Arge/GirdiKaliteKontrol.cshtml">
+      <publishTime>05/27/2024 12:02:35</publishTime>
+    </File>
+    <File Include="Views/bayboss/DepoMalKabul.cshtml">
+      <publishTime>05/10/2023 22:23:40</publishTime>
+    </File>
+    <File Include="Views/bayboss/Fireler.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/FiyatGrupListe.cshtml">
+      <publishTime>05/29/2023 13:44:33</publishTime>
+    </File>
+    <File Include="Views/bayboss/FiyatGrupListeYeniMusteri.cshtml">
+      <publishTime>05/29/2023 13:47:11</publishTime>
+    </File>
+    <File Include="Views/bayboss/HammaddeTalep.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/Iadeler.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/MusteriSec.cshtml">
+      <publishTime>02/24/2023 12:29:02</publishTime>
+    </File>
+    <File Include="Views/bayboss/Receteler.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/SatinalmaSip.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/SatisIrs.cshtml">
+      <publishTime>10/06/2023 21:30:31</publishTime>
+    </File>
+    <File Include="Views/bayboss/SatisSip.cshtml">
+      <publishTime>08/07/2023 21:51:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/SatisSipOnay.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/SatisSipSatirListe.cshtml">
+      <publishTime>08/07/2023 21:51:28</publishTime>
+    </File>
+    <File Include="Views/bayboss/Sayim.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/SayimTakip.cshtml">
+      <publishTime>12/29/2022 16:53:23</publishTime>
+    </File>
+    <File Include="Views/bayboss/SiparisListe.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/StokSeriListe.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/TalepOnay.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/Transfer.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/UretUrunListe.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/bayboss/VarilDegisim.cshtml">
+      <publishTime>01/20/2023 15:57:40</publishTime>
+    </File>
+    <File Include="Views/bayboss/VarilDegisimFis.cshtml">
+      <publishTime>01/07/2023 13:37:55</publishTime>
+    </File>
+    <File Include="Views/Cari/CariAra.cshtml">
+      <publishTime>01/14/2024 02:20:01</publishTime>
+    </File>
+    <File Include="Views/Cari/CariFiyatListeFis.cshtml">
+      <publishTime>11/06/2023 22:28:04</publishTime>
+    </File>
+    <File Include="Views/Cari/CariFiyatListesi.cshtml">
+      <publishTime>11/05/2023 15:17:46</publishTime>
+    </File>
+    <File Include="Views/DepoTransfer/HammaddeTalepFis.cshtml">
+      <publishTime>03/18/2024 23:35:15</publishTime>
+    </File>
+    <File Include="Views/DepoTransfer/HammaddeTalepListe.cshtml">
+      <publishTime>12/19/2023 15:26:55</publishTime>
+    </File>
+    <File Include="Views/DepoTransfer/HammaddeTalepOnayListe.cshtml">
+      <publishTime>01/21/2024 01:10:24</publishTime>
+    </File>
+    <File Include="Views/DepoTransfer/HammaddeTalepSevkFis.cshtml">
+      <publishTime>04/01/2024 10:24:41</publishTime>
+    </File>
+    <File Include="Views/DepoTransfer/HammaddeTalepSevkFisSatir.cshtml">
+      <publishTime>11/25/2023 20:24:03</publishTime>
+    </File>
+    <File Include="Views/Faaliyet/faaliyetTakvimi.cshtml">
+      <publishTime>10/28/2022 03:41:29</publishTime>
+    </File>
+    <File Include="Views/Faaliyet/MusteriFaaliyetListesi.cshtml">
+      <publishTime>02/12/2024 21:25:25</publishTime>
+    </File>
+    <File Include="Views/Faaliyet/MusteriTeknikFaaliyet.cshtml">
+      <publishTime>02/08/2024 21:17:09</publishTime>
+    </File>
+    <File Include="Views/Faaliyet/PlasiyerFaaliyetRaporu.cshtml">
+      <publishTime>12/14/2023 11:46:39</publishTime>
+    </File>
+    <File Include="Views/Faaliyet/_yeniFaaliyetTakvimKayit.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Fire/FireFis.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Fire/FireSatir.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Home/barkod.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Home/demo.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>01/05/2024 15:38:31</publishTime>
+    </File>
+    <File Include="Views/Home/istanbul.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Home/Login.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Login/UserLogin.cshtml">
+      <publishTime>12/13/2023 22:32:39</publishTime>
+    </File>
+    <File Include="Views/malKabul/HamTalepFis.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/malKabul/MalKabulFis.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/malKabul/SatinalmaIrsFis.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/malKabul/SatinalmaSipFis.cshtml">
+      <publishTime>04/26/2023 13:40:46</publishTime>
+    </File>
+    <File Include="Views/malKabul/Satir.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/malKabul/SayimFis.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/malKabul/SevkSatir.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/malKabul/TransferFis.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/malKabul/UretimMalKabul.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/NetsisToLogo/NetsisHareketListe.cshtml">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Views/Raporlama/CalismaTanimlama.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/CariAdatRaporu.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/cariBakiyeRaporu.cshtml">
+      <publishTime>08/07/2024 09:37:02</publishTime>
+    </File>
+    <File Include="Views/Raporlama/CariListe.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/Dovizler.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/GunceSolventFiyatRaporu.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/HammaddeSarfRaporu.cshtml">
+      <publishTime>04/18/2024 13:33:30</publishTime>
+    </File>
+    <File Include="Views/Raporlama/HammaddeSarfRaporuGrafik.cshtml">
+      <publishTime>01/10/2024 12:03:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/HedefRaporu.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/KarsilastirmaRaporu.cshtml">
+      <publishTime>02/19/2024 23:13:31</publishTime>
+    </File>
+    <File Include="Views/Raporlama/KodBazindaSatislar.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/KodBazindaSatisRaporu.cshtml">
+      <publishTime>03/23/2024 14:51:13</publishTime>
+    </File>
+    <File Include="Views/Raporlama/kodBazindaToplamRaporu.cshtml">
+      <publishTime>03/23/2024 14:53:28</publishTime>
+    </File>
+    <File Include="Views/Raporlama/konsinyeRaporu.cshtml">
+      <publishTime>01/17/2024 11:12:42</publishTime>
+    </File>
+    <File Include="Views/Raporlama/KritikStokListe.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/labHamStok.cshtml">
+      <publishTime>01/11/2023 09:46:55</publishTime>
+    </File>
+    <File Include="Views/Raporlama/Laboratuarlar.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/LaboratuvarRaporu.cshtml">
+      <publishTime>09/10/2024 20:35:10</publishTime>
+    </File>
+    <File Include="Views/Raporlama/listeCariVadeRaporu.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/MakinaTanimlama.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/MusteriRaporu.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/MusteriSatisAnaliz.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/NumuneTekAdiTanimlama.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/PerformansRaporu.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/Rmp.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/RmpRaporu.cshtml">
+      <publishTime>02/28/2024 15:08:36</publishTime>
+    </File>
+    <File Include="Views/Raporlama/satisAmbalajRaporu.cshtml">
+      <publishTime>04/14/2024 20:22:48</publishTime>
+    </File>
+    <File Include="Views/Raporlama/Satislar.cshtml">
+      <publishTime>12/30/2022 22:28:29</publishTime>
+    </File>
+    <File Include="Views/Raporlama/StokDepoKonsinyeRaporu.cshtml">
+      <publishTime>01/17/2024 13:05:34</publishTime>
+    </File>
+    <File Include="Views/Raporlama/StokGrupRaporu.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/StokHareketRaporu.cshtml">
+      <publishTime>01/18/2024 19:48:39</publishTime>
+    </File>
+    <File Include="Views/Raporlama/StokListe.cshtml">
+      <publishTime>01/07/2023 13:30:41</publishTime>
+    </File>
+    <File Include="Views/Raporlama/TasiyiciRaporu.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/TekDetayTab.cshtml">
+      <publishTime>04/25/2023 22:42:52</publishTime>
+    </File>
+    <File Include="Views/Raporlama/TeknikDetayRaporu.cshtml">
+      <publishTime>02/21/2024 15:17:02</publishTime>
+    </File>
+    <File Include="Views/Raporlama/TonajDagilimi.cshtml">
+      <publishTime>02/16/2023 23:02:42</publishTime>
+    </File>
+    <File Include="Views/Raporlama/TonajDagilimiFiyatli.cshtml">
+      <publishTime>12/30/2022 22:58:02</publishTime>
+    </File>
+    <File Include="Views/Raporlama/TonajDagilimiFiyatRaporu.cshtml">
+      <publishTime>03/20/2024 14:17:19</publishTime>
+    </File>
+    <File Include="Views/Raporlama/TonajDagilimiRaporu.cshtml">
+      <publishTime>04/16/2024 21:46:29</publishTime>
+    </File>
+    <File Include="Views/Raporlama/TonajDagilimiSatinalma.cshtml">
+      <publishTime>12/30/2022 23:03:08</publishTime>
+    </File>
+    <File Include="Views/Raporlama/TonajDagilimiSolvent.cshtml">
+      <publishTime>11/11/2022 22:09:49</publishTime>
+    </File>
+    <File Include="Views/Raporlama/TonajDagilimiSolventRaporu.cshtml">
+      <publishTime>04/18/2024 14:47:54</publishTime>
+    </File>
+    <File Include="Views/Raporlama/TopluOkutmaTanimlama.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/TuketimGuncelRaporu.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/UretimRaporu.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/UretimSekliRaporu.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/yariMamulCikislar.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Raporlama/YillikStokHareket.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Recete/OnayBekleyenReceteler.cshtml">
+      <publishTime>03/27/2024 08:09:50</publishTime>
+    </File>
+    <File Include="Views/Recete/ReceteFis.cshtml">
+      <publishTime>12/28/2023 22:48:05</publishTime>
+    </File>
+    <File Include="Views/Recete/ReceteSatir.cshtml">
+      <publishTime>08/23/2023 11:12:45</publishTime>
+    </File>
+    <File Include="Views/Recete/ReceteSec.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Recete/StokReceteListe.cshtml">
+      <publishTime>05/18/2024 00:44:13</publishTime>
+    </File>
+    <File Include="Views/satinalma/MusteriSec.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/satinalma/SatinalmaFormu.cshtml">
+      <publishTime>06/04/2023 17:31:35</publishTime>
+    </File>
+    <File Include="Views/satinalma/SatinalmaSiparisFis.cshtml">
+      <publishTime>07/10/2023 01:56:31</publishTime>
+    </File>
+    <File Include="Views/satinalma/SatinalmaSiparisYonetim.cshtml">
+      <publishTime>06/04/2023 17:18:16</publishTime>
+    </File>
+    <File Include="Views/satinalma/Satir.cshtml">
+      <publishTime>03/06/2023 19:01:53</publishTime>
+    </File>
+    <File Include="Views/SatinalmaSiparis/SatinalmaIrsaliyeListe.cshtml">
+      <publishTime>01/14/2024 02:06:52</publishTime>
+    </File>
+    <File Include="Views/SatinalmaSiparis/SatinalmaSiparisFis.cshtml">
+      <publishTime>01/04/2024 13:12:52</publishTime>
+    </File>
+    <File Include="Views/SatinalmaSiparis/SatinalmaSiparisListe.cshtml">
+      <publishTime>12/28/2023 13:43:41</publishTime>
+    </File>
+    <File Include="Views/SatinalmaSiparis/SatinalmaSiparisSevkFis.cshtml">
+      <publishTime>01/21/2024 01:21:47</publishTime>
+    </File>
+    <File Include="Views/SatinalmaSiparis/SatinalmaSiparisSevkKaydet.cshtml">
+      <publishTime>01/21/2024 01:22:16</publishTime>
+    </File>
+    <File Include="Views/SatinalmaSiparis/SatisIadeIrsaliyeListe.cshtml">
+      <publishTime>01/14/2024 02:13:13</publishTime>
+    </File>
+    <File Include="Views/SatinalmaTalep/SatinalmaFormu.cshtml">
+      <publishTime>02/19/2024 21:35:24</publishTime>
+    </File>
+    <File Include="Views/SatinalmaTalep/SatinalmaTalepFis.cshtml">
+      <publishTime>02/29/2024 10:17:19</publishTime>
+    </File>
+    <File Include="Views/SatinalmaTalep/SatinalmaTalepListe.cshtml">
+      <publishTime>07/10/2024 23:09:29</publishTime>
+    </File>
+    <File Include="Views/satis/Satir.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/satis/SatisIrsFis.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/satis/SatisSipFis.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/satis/sevkiyatListesi.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/satis/SiparisAnalizBekleyenler.cshtml">
+      <publishTime>05/30/2023 21:19:38</publishTime>
+    </File>
+    <File Include="Views/SatisSiparis/SatisIrsaliyeListe.cshtml">
+      <publishTime>09/09/2024 15:02:58</publishTime>
+    </File>
+    <File Include="Views/SatisSiparis/SatisSiparisFis.cshtml">
+      <publishTime>09/16/2024 21:40:38</publishTime>
+    </File>
+    <File Include="Views/SatisSiparis/SatisSiparisFisSatir.cshtml">
+      <publishTime>01/04/2024 11:54:42</publishTime>
+    </File>
+    <File Include="Views/SatisSiparis/SatisSiparisListe.cshtml">
+      <publishTime>09/15/2024 15:24:32</publishTime>
+    </File>
+    <File Include="Views/SatisSiparis/SatisSiparisSevkFis.cshtml">
+      <publishTime>01/04/2024 13:27:55</publishTime>
+    </File>
+    <File Include="Views/SatisSiparis/SatisSiparisSevkKaydet.cshtml">
+      <publishTime>01/30/2024 09:23:57</publishTime>
+    </File>
+    <File Include="Views/SatisSiparis/SatisSiparisSevkListe.cshtml">
+      <publishTime>09/16/2024 11:14:06</publishTime>
+    </File>
+    <File Include="Views/SatisSiparis/SevkiyatListe.cshtml">
+      <publishTime>12/19/2023 15:27:19</publishTime>
+    </File>
+    <File Include="Views/SatisSiparis/SipariseBagliUretimListe.cshtml">
+      <publishTime>01/05/2024 18:01:11</publishTime>
+    </File>
+    <File Include="Views/SatisSiparis/SiparisOnayiListe.cshtml">
+      <publishTime>03/04/2024 13:09:53</publishTime>
+    </File>
+    <File Include="Views/Sayim/SayimFis.cshtml">
+      <publishTime>04/04/2024 11:31:33</publishTime>
+    </File>
+    <File Include="Views/Sayim/SayimListe.cshtml">
+      <publishTime>03/24/2024 04:04:43</publishTime>
+    </File>
+    <File Include="Views/Sevkiyat/SevkiyatPaletFis.cshtml">
+      <publishTime>05/16/2023 15:11:41</publishTime>
+    </File>
+    <File Include="Views/Sevkiyat/SevkiyatPaletListe.cshtml">
+      <publishTime>06/11/2023 16:47:38</publishTime>
+    </File>
+    <File Include="Views/Sevkiyat/SevkiyatPaletStokListe.cshtml">
+      <publishTime>05/16/2023 14:31:19</publishTime>
+    </File>
+    <File Include="Views/Shared/AFisSatirSevkFisSatir.cshtml">
+      <publishTime>03/24/2024 04:02:13</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>03/31/2024 01:36:15</publishTime>
+    </File>
+    <File Include="Views/stok/analizSertMailListesi.cshtml">
+      <publishTime>01/11/2023 22:14:19</publishTime>
+    </File>
+    <File Include="Views/stok/BarkodListesi.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/stok/cariMailListesi.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/stok/DetayliStokListesi.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/stok/fiyatListe.cshtml">
+      <publishTime>10/06/2023 21:40:56</publishTime>
+    </File>
+    <File Include="Views/stok/kritikStok.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/stok/manuelAnalizSertifikasiListe.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/stok/manuelAnalizSertifikasiYeniKayit.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/stok/satinalmaRaporu.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Stok/StokAra.cshtml">
+      <publishTime>03/24/2024 02:48:24</publishTime>
+    </File>
+    <File Include="Views/stok/stokBakiyeleri.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Stok/StokBakiyeListe.cshtml">
+      <publishTime>01/12/2024 13:20:57</publishTime>
+    </File>
+    <File Include="Views/stok/stokDepoKonsinye.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/stok/StokHareketleri.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/stok/stokHareketSeriTakip.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/stok/StokListesi.cshtml">
+      <publishTime>07/17/2023 16:18:17</publishTime>
+    </File>
+    <File Include="Views/stok/stokTakipListesi.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Stok/StokUretimListe.cshtml">
+      <publishTime>02/22/2024 10:36:24</publishTime>
+    </File>
+    <File Include="Views/stok/UrunAra.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/stok/YeniUrun.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/StokFiyat/FiyatGrupListe.cshtml">
+      <publishTime>01/24/2024 08:23:37</publishTime>
+    </File>
+    <File Include="Views/StokFiyat/FiyatGrupListeFis.cshtml">
+      <publishTime>07/21/2024 21:24:19</publishTime>
+    </File>
+    <File Include="Views/Tanimlama/CariListe.cshtml">
+      <publishTime>02/21/2024 09:54:45</publishTime>
+    </File>
+    <File Include="Views/Tanimlama/ReceteKopyala.cshtml">
+      <publishTime>05/02/2024 14:45:01</publishTime>
+    </File>
+    <File Include="Views/Tanimlama/StokKoduDegistir.cshtml">
+      <publishTime>04/19/2024 16:10:09</publishTime>
+    </File>
+    <File Include="Views/Tanimlama/StokListe.cshtml">
+      <publishTime>04/18/2024 15:15:09</publishTime>
+    </File>
+    <File Include="Views/Tanimlama/StokOzellikListe.cshtml">
+      <publishTime>01/11/2024 10:32:38</publishTime>
+    </File>
+    <File Include="Views/Tanimlama/TranslateTanimListe.cshtml">
+      <publishTime>12/14/2023 11:50:53</publishTime>
+    </File>
+    <File Include="Views/Tanimlama/YeniPartiNo.cshtml">
+      <publishTime>03/19/2024 15:17:24</publishTime>
+    </File>
+    <File Include="Views/Tanimlama/YeniStokKart.cshtml">
+      <publishTime>09/18/2024 22:37:23</publishTime>
+    </File>
+    <File Include="Views/Translate/TranslateTanimlari.cshtml">
+      <publishTime>11/17/2022 01:00:57</publishTime>
+    </File>
+    <File Include="Views/uretim/Gunlukuretim.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/uretim/hamTopBilgisi.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/uretim/IsEmriBaslat.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Uretim/IsEmriRecete.cshtml">
+      <publishTime>01/30/2024 08:41:27</publishTime>
+    </File>
+    <File Include="Views/Uretim/IsEmriReceteEkBilgi.cshtml">
+      <publishTime>05/03/2024 11:02:55</publishTime>
+    </File>
+    <File Include="Views/uretim/SipIsEmri.cshtml">
+      <publishTime>10/05/2023 20:19:00</publishTime>
+    </File>
+    <File Include="Views/uretim/UretimHareket.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Uretim/UretimIsEmriHamTopBilgi.cshtml">
+      <publishTime>01/02/2024 22:16:49</publishTime>
+    </File>
+    <File Include="Views/uretim/UretimIslem.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/uretim/Uretimler.cshtml">
+      <publishTime>08/07/2023 14:03:58</publishTime>
+    </File>
+    <File Include="Views/Uretim/UretimListe.cshtml">
+      <publishTime>08/28/2024 23:53:42</publishTime>
+    </File>
+    <File Include="Views/uretim/UrtEkBilgi.cshtml">
+      <publishTime>04/25/2023 21:49:55</publishTime>
+    </File>
+    <File Include="Views/uretim/UrunSec.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Views/Yonetim/KullaniciListe.cshtml">
+      <publishTime>12/13/2023 14:18:21</publishTime>
+    </File>
+    <File Include="Views/Yonetim/KullaniciYetki.cshtml">
+      <publishTime>02/28/2024 15:25:03</publishTime>
+    </File>
+    <File Include="Views/Yonetim/KullaniciYonet.cshtml">
+      <publishTime>11/04/2022 22:00:50</publishTime>
+    </File>
+    <File Include="Views/Yonetim/UstaYonet.cshtml">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>10/16/2023 15:24:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/16/2024 21:46:51</publishTime>
+    </File>
+    <File Include="wIconSet.txt">
+      <publishTime>02/07/2023 23:12:17</publishTime>
+    </File>
+    <File Include="wMaliyetOlustur.txt">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="wNot.txt">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+    <File Include="wSayimNasilYapilir.txt">
+      <publishTime>10/23/2022 15:15:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

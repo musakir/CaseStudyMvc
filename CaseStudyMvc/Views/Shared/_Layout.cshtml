@@ -1,0 +1,99 @@
+﻿@using System.Data;
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/css/main.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/site.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/bayboss/modal.css")" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" />
+</head>
+<body class="homepage is-preload">
+
+    <div id="page-wrapper">
+        @RenderBody()
+
+        <div id="lock-modal"></div>
+        <div id="loading-circle"></div>
+
+        <header id="header">
+            <div class="logo container">
+                <div>
+                    <h1><a href="index.html" id="logo">@ViewBag.Title</a></h1>
+                </div>
+            </div>
+        </header>
+
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="@Url.Content("~/Home/EyaletTatilListe")"> Eyalet Tatil Liste </a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div id="divHataGoster" class="modal">
+        <div class="modal-content-error" style="max-height:700px;">
+            <div class="modal-body" style="border-bottom:1px solid #e9ecef;">
+                <span class="close" id="spnHataGoster" style="font-size:40px;">&times;</span>
+                <H1 style="line-height:40px; font-size:20px;"> HATA </H1>
+            </div>
+            <div class="modal-body">
+                <form>
+                    @if (Model.ErrorMessage != null)
+                    {
+                        for (int i = 0; i < Model.ErrorMessage.Count; i++)
+                        {
+                            <div class="col-12 col-12-small" id="divTdHataGoster" style="overflow:auto; max-height:600px;"> @Model.ErrorMessage[i] </div>
+                        }
+                    }
+                </form>
+            </div>
+        </div>
+    </div>
+    <button id="divBtnHataGoster" type="submit" class="btn btn-warning" data-toggle="modal" data-target="#divHataGoster" style="display:none;">div göster</button>
+
+</body>
+</html>
+
+<script src="@Url.Content("~/Content/js/jquery.min.js")"></script>
+<script src="@Url.Content("~/Content/js/jquery.dropotron.min.js")"></script>
+<script src="@Url.Content("~/Content/js/browser.min.js")"></script>
+<script src="@Url.Content("~/Content/js/breakpoints.min.js")"></script>
+<script src="@Url.Content("~/Content/js/util.js")"></script>
+<script src="@Url.Content("~/Content/js/main.js")"></script>
+<script src="@Url.Content("~/Content/js/print.min.js")"></script>
+<script type="text/javascript" src='@Url.Content("~/Scripts/bykm.js")'></script>
+<script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+
+<script>
+    var modalHataGoster = document.getElementById("divHataGoster");
+    var btnHataGoster = document.getElementById("divBtnHataGoster");
+
+    var spanHataGoster = document.getElementById("spnHataGoster");
+
+    btnHataGoster.onclick = function () {
+        modalHataGoster.style.display = "block";
+    }
+
+    spanHataGoster.onclick = function () {
+        modalHataGoster.style.display = "none";
+    }
+
+    window.onclick = function (event) {
+        if (event.target == modalHataGoster) {
+            modalHataGoster.style.display = "none";
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        if ('@Model.ErrorMessage' != null && '@Model.ErrorMessage.Count' > 0)
+        {
+            document.getElementById("divBtnHataGoster").click();
+        }
+    });
+</script>

@@ -1,0 +1,233 @@
+﻿@using System.Data;
+@{
+    ViewBag.Title = "Tatil Liste";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .td {
+        width: 50px;
+        padding: 0px 0px;
+        border: 1px solid #efecde;
+    }
+
+    .p5 {
+        padding: 5px;
+    }
+</style>
+
+<div class="hidedesktop" style="margin-top:50px;"></div>
+<div class="hidemobile" style="margin-top:10px;"></div>
+
+<div class="container" style="width:100%; margin-top:5px;">
+    <div class="row gtr-0">
+
+        <div class="col-12 col-12-small" style="text-align:center;">
+            <h2 class="hidemobile"> EYALET TATİL LİSTE </h2>
+        </div>
+
+        <div class="col-1 col-2-medium col-3-small" style="text-align:right; padding-right:5px; padding-top:5px;">
+            <span> Yil :</span>
+        </div>
+        <div class="col-1 col-2-medium col-3-small">
+            <form>
+                <select id="tKriterYil"
+                        style="font-weight:bold; width:100%; height:50px; padding:5px 5px; line-height:1.5em; border:1px solid black;">
+                    <option value="0"> Seçiniz . . . </option>
+                    <option value="2024"> 2024 </option>
+                    <option value="2025"> 2025 </option>
+                    <option value="2026"> 2026 </option>
+                </select>
+            </form>
+        </div>
+
+        <div class="col-1 col-2-medium col-3-small" style="text-align:right; padding-right:5px; padding-top:5px;">
+            <span> Ülke :</span>
+        </div>
+        <div class="col-2 col-2-medium col-3-small">
+            <form>
+                <select id="tKriterUlke"
+                        style="font-weight:bold; width:100%; height:50px; padding:5px 5px; line-height:1.5em; border:1px solid black;">
+                    <option value="0"> Seçiniz . . . </option>
+                    <option value="1"> Almanya </option>
+                </select>
+            </form>
+        </div>
+        <div class="col-1 col-2-medium col-3-small" style="text-align:right; padding-right:5px; padding-top:5px; margin-top:5px;">
+            <span> Tatil Türü :</span>
+        </div>
+        <div class="col-2 col-2-medium col-3-small">
+            <form>
+                <select id="tKriterTatilTur"
+                        style="font-weight:bold; width:100%; height:50px; padding:5px 5px; line-height:1.5em; border:1px solid black; margin-top:5px;">
+                    <option value="0"> Seçiniz . . . </option>
+                    @foreach (var item in Model.TatilTurListe)
+                    {
+                        if (item.Id == Model.TatilTurId)
+                        {
+                            <option value="@item.Id" selected> @item.Aciklama </option>
+                        }
+                        else
+                        {
+                            <option value="@item.Id"> @item.Aciklama </option>
+                        }
+                    }
+                </select>
+            </form>
+        </div>
+        <div class="col-1 col-2-medium col-3-small" style="padding-top:5px;">
+            <button type="button" class="btnPrimaryMedium" style="background-color:darkblue; font-size:1em; height:50px; padding:10px 20px; margin-left:5px;"
+                    onclick="Sorgula()">
+                Ara
+            </button>
+        </div>
+        <div class="col-3 col-6-medium col-3-small" style="text-align:right;">
+            <button type="button" class="btnPrimaryMedium" style="background-color:darkblue; font-size:1em; height:50px; padding:10px 20px; margin-left:5px;"
+                    onclick="TatilTanimla()">
+                Tatil Tanımla
+            </button>
+        </div>
+
+        <div class="col-1 col-2-medium col-3-small" style="text-align:right; padding-right:5px; padding-top:5px; margin-top:5px;">
+            <span> Ay :</span>
+        </div>
+        <div class="col-1 col-2-medium col-3-small">
+            <form>
+                <select id="tKriterAy"
+                        style="font-weight:bold; width:100%; height:50px; padding:5px 5px; line-height:1.5em; border:1px solid black; margin-top:5px;">
+                    <option value="0"> Seçiniz . . . </option>
+                    <option value="1"> Ocak </option>
+                    <option value="2"> Şubat </option>
+                    <option value="3"> Mart </option>
+                    <option value="4"> Nisan </option>
+                    <option value="5"> Mayıs </option>
+                    <option value="6"> Haziran </option>
+                    <option value="7"> Temmuz </option>
+                    <option value="8"> Ağustos </option>
+                    <option value="9"> Eylül </option>
+                    <option value="10"> Ekim </option>
+                    <option value="11"> Kasım </option>
+                    <option value="12"> Aralık </option>
+                </select>
+            </form>
+        </div>
+        <div class="col-1 col-2-medium col-3-small" style="text-align:right; padding-right:5px; padding-top:5px; margin-top:5px;">
+            <span> Eyalet :</span>
+        </div>
+        <div class="col-2 col-2-medium col-3-small">
+            <form>
+                <select id="tKriterEyalet"
+                        style="font-weight:bold; width:100%; height:50px; padding:5px 5px; line-height:1.5em; border:1px solid black; margin-top:5px;">
+                    <option value="0"> Seçiniz . . . </option>
+                    @foreach (var item in Model.EyaletListe)
+                    {
+                        if (item.Id == Model.EyaletId)
+                        {
+                            <option value="@item.Id" selected> @item.EyaletAdi </option>
+                        }
+                        else
+                        {
+                            <option value="@item.Id"> @item.EyaletAdi </option>
+                        }
+                    }
+                </select>
+            </form>
+        </div>
+
+        <div class="col-12 col-12-small" style="overflow:auto; padding-top:5px;">
+            <form>
+                <table id="tbSatislar" name="tbSatislar"
+                       data-page-length="20000"
+                       style="width:100%; min-width:1000px;">
+                    <thead>
+                        <tr style="background-color:darkblue; color:white; font-weight:bold; font-size:12px; line-height:20px;">
+                            <td class="mTableTd p5" style="width:5em;"> Tarih </td>
+                            <td class="mTableTd p5" style="width:5em;"> Tatil Türü </td>
+                            <td class="mTableTd p5" style="width:15em;"> Açıklama </td>
+                            <td class="mTableTd p5" style="width:15em;"> Eyalet </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.EyaletTatilListe != null && Model.EyaletTatilListe.Count > 0)
+                        {
+                            foreach (var item in Model.EyaletTatilListe)
+                            {
+                                <tr style="line-height:20px;">
+                                    <td class="mTableTd p5">
+                                        <span> @item.TatilTarih.ToString("dd-MM-yyyy") </span>
+                                    </td>
+                                    <td class="mTableTd p5">
+                                        <span> @item.TatilTur </span>
+                                    </td>
+                                    <td class="mTableTd p5">
+                                        <span> @item.TatilAciklama </span>
+                                    </td>
+                                    <td class="mTableTd p5">
+                                        <span> @item.EyaletAdi </span>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="5" style="text-align:center;"> Kayıt bulunamadı .!</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function enterCalistir(e) {
+        if (e.keyCode === 13) {
+            Sorgula();
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("tKriterYil").value = '@Model.Yil';
+        document.getElementById("tKriterAy").value = '@Model.Ay';
+        document.getElementById("tKriterUlke").value = '@Model.UlkeId';
+        document.getElementById("tKriterTatilTur").value = '@Model.TatilTurId';
+    });
+
+    function Sorgula()
+    {
+        var KriterEyalet = document.getElementById("tKriterEyalet").value;
+        var KriterUlke = document.getElementById("tKriterUlke").value;
+        var KriterYil = document.getElementById("tKriterYil").value;
+        var KriterAy = document.getElementById("tKriterAy").value;
+        var KriterTatilTur = document.getElementById("tKriterTatilTur").value;
+
+        location.href = '@Url.Content("~/Home/EyaletTatilListe")' + "?KriterEyaletId=" + KriterEyalet + "&KriterUlke=" + KriterUlke + "&KriterYil=" + KriterYil + "&KriterAy=" + KriterAy + "&KriterTatilTur=" + KriterTatilTur;
+    }
+
+    function TatilTanimla()
+    {
+        location.href = '@Url.Content("~/Login/Giris")';
+    }
+
+</script>
+
+<script src="@Url.Content("~/Content/js/jquery.min.js")"></script>
+
+<script>
+    $(function () {
+        $('#tbSatislar').DataTable({
+            "language": {
+                "url": "@Url.Content("~/Scripts/datatables.json")"
+            },
+            autoFill: true,
+            dom: 'Bfrtip',
+            buttons: [
+                'excelHtml5',
+                'pdfHtml5'
+            ]
+        });
+    });
+</script>
